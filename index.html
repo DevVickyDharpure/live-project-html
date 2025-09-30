@@ -16,6 +16,11 @@
             width: 100vw;
         }
 
+        a {
+            text-decoration: none;
+            color: black;
+        }
+
         /* -----section-one---start */
         /* home---page-start  */
         .section-one {
@@ -38,6 +43,7 @@
             background: linear-gradient(to right, #94EEEE, #548888);
             position: fixed;
             display: flex;
+            margin-top: -25px;
         }
 
         /* header-shop-name */
@@ -55,7 +61,7 @@
             padding-left: 190px;
             font-size: 20px;
             display: flex;
-            gap: 50px;
+            gap: 40px;
         }
 
         /* header---end--------------------- */
@@ -439,12 +445,13 @@
         .logo {
             height: 80px;
             width: 65px;
-            margin-left: -28%;
+            margin-left: 8px;
+            margin-top: 5px;
 
         }
 
         .shop-name-contact {
-            font-size: 18px;
+            font-size: 16px;
             margin-top: -5%;
             margin-left: 3%;
 
@@ -507,7 +514,7 @@
             /* header---start--------------------- */
             .header {
                 height: 8%;
-                width: 80%;
+                width: 100%;
                 flex-direction: column;
                 margin-top: -5%;
 
@@ -521,10 +528,10 @@
             .header-button {
                 width: 100%;
                 padding-top: 3%;
-                padding-left: 50px;
+                padding-left: 39px;
                 font-size: 15px;
                 display: flex;
-                gap: 50px;
+                gap: 20px;
             }
 
             /* header---end--------------------- */
@@ -876,8 +883,8 @@
 
             /* section--nine---end--------  */
             .web-developer {
-          
-            font-size: 10px;
+
+                font-size: 10px;
             }
 
 
@@ -891,7 +898,7 @@
     <div class="main-container">
         <!-- home---page-start -->
         <!------section-----one---start -->
-        <div class="section-one">
+        <div class="section-one" id="Home">
             <div class="black-opycity">
                 <!-- header--start---------- -->
                 <div class="header">
@@ -899,10 +906,10 @@
                         <span>Ganesh Decor & Events </span>
                     </div>
                     <div class="header-button">
-                        <span> Home </span>
-                        <span> About </span>
-                        <span> Services </span>
-                        <span> Contact </span>
+                        <span> <a href="#Home ">Home </span> </a>
+                        <span> <a href="#about">About</span> </a>
+                        <span> <a href="#service">Service</span> </a>
+                        <span> <a href="#Contact">Contact</span> </a>
                     </div>
                     <!-- header---end--------------- -->
                 </div>
@@ -1001,7 +1008,7 @@
             </div>
         </div>
 
-        <div class="service-name">
+        <div class="service-name" id="service">
             Services
         </div>
 
@@ -1017,7 +1024,7 @@
                         alt="">
                     <br>
                     <b class="card-text-name"> Wedding Stage </b>
-                    <button class="button-see-more">See More</button>
+                    <button class="button-see-more"><a href="./pages/project-file/wedding-1.html">See More</a></button>
                 </div>
                 <div class="box-01">
                     <img class="img-hw"
@@ -1164,10 +1171,10 @@
             </div>
         </div>
         <!--   section--seven----- end----  -->
-        \
+
         <!-- about-section -->
         <!-- owner-information-Experience -->
-        <div class="service-name">
+        <div class="service-name" id="about">
             About
         </div>
         <!-- section--eight---start----- -->
@@ -1205,7 +1212,7 @@
         <!-- section--eight---end-------- -->
 
         <!-- contact-us section -->
-        <div class="service-name">
+        <div class="service-name" id="Contact">
             Contact
         </div>
         <!--  section--nine---start-------- -- -->

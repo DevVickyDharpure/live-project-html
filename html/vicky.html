@@ -1,0 +1,589 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+            background: linear-gradient(to right, #e2fff5, aliceblue, aliceblue, #d7fff2);
+        
+        }
+
+        /* ------  section-one-start ------- */
+        .section-one {
+            height: 80%;
+            width: 100%;
+            background: linear-gradient(to right, #e2fff5, aliceblue, aliceblue, #d7fff2);
+            display: flex;
+        }
+
+        /* header */
+        .header {
+            height: 8%;
+            width: 100%;
+            background-color: rgb(1, 43, 78);
+            display: flex;
+            position: fixed;
+            margin-top: -7px;
+        }
+
+        .header-box-name {
+            width: 40%;
+            height: 100%;
+        }
+
+        .header-name {
+            font-size: 45px;
+            margin-left: 55px;
+            color: aliceblue;
+            text-shadow: 2px 1px rgb(255, 227, 227);
+        }
+
+        .header-button {
+            width: 60%;
+            padding-top: 1.5%;
+            padding-left: 340px;
+            font-size: 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(255, 255, 255);
+        }
+
+        /*  */
+        /*  */
+        .class-1 {
+            height: 100%;
+            width: 100%;
+            display: flex;
+
+
+        }
+
+        .section-1-box-1 {
+            height: 100%;
+            width: 50%;
+            /* background-color: aliceblue; */
+        }
+
+        .home-skills {
+            font-size: 50px;
+            padding-top: 160px;
+            padding-left: 160px;
+            color: rgb(50, 205, 205);
+            animation: homeskillsAnimation;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+            animation-timing-function: cubic-bezier(0.46, -0.02, 0, 1.04);
+            /* animation-delay: 0s; */
+            animation-direction: alternate-reverse;
+
+        }
+
+        @keyframes homeskillsAnimation {
+            from {}
+
+            to {
+                transform: translateX(-610px);
+            }
+        }
+
+        .developer-home-text {
+            font-size: 22px;
+            padding-left: 160px;
+
+        }
+
+        .experiences-text {
+            font-size: 19px;
+            padding-left: 160px;
+            padding-top: 10px;
+            display: flex;
+            gap: 19px;
+
+        }
+
+        .home-number-1 {
+            font-size: 35px;
+            padding-left: 65px;
+            color: rgb(4, 4, 130);
+        }
+
+        .home-number-2 {
+            font-size: 35px;
+            padding-left: 53px;
+            color: rgb(4, 4, 130);
+        }
+
+        .home-number-3 {
+            font-size: 35px;
+            padding-left: 40px;
+            color: rgb(4, 4, 130);
+        }
+
+        .home-page-button-1 {
+            height: 33px;
+            width: 135px;
+            font-size: 15px;
+            margin-left: 210px;
+            margin-top: 40px;
+            border: none;
+            background-color: rgb(0, 81, 138);
+            border-radius: 5px;
+
+        }
+
+        .home-page-button-2 {
+
+            height: 33px;
+            width: 135px;
+            font-size: 15px;
+            margin-left: 30px;
+            border: none;
+            background-color: rgb(0, 81, 138);
+            border-radius: 5px;
+
+        }
+
+
+        .section-1-box-2 {
+            height: 100%;
+            width: 50%;
+            display: flex;
+            align-items: center;
+        }
+
+        .img-box-section-1 {
+            height: 380px;
+            width: 390px;
+            background-color: #944f4f;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 120px;
+            margin-top: 90px;
+        }
+
+        .developer-img {
+            height: 370px;
+            width: 380px;
+        }
+
+        /* -------  section--one-end  -----*/
+
+        /* ---section-two--start -------- */
+
+        .section-two {
+            height: 80%;
+            width: 100%;
+            background: linear-gradient(to right, #e2fff5, aliceblue, aliceblue, #d7fff2);
+            display: flex;
+
+
+
+        }
+
+        .about-headline {
+            background-color: aliceblue;
+            font-size: 37px;
+            text-align: center;
+            padding-top: 9px;
+        }
+
+      
+
+        /*  */
+        .about-box-1 {
+
+            width: 40%;
+            padding-top: 90px;
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        /*  */
+        .img-about-section {
+            height: 320px;
+            width: 350px;
+            background-color: #e48585;
+            border-radius: 2px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: 170px;
+            border-radius: 5px;
+
+        }
+
+        .developer-img-2 {
+            height: 300px;
+            width: 330px;
+        }
+
+        .codder-name {
+            padding-left: 210px;
+            font-size: 35px;
+            color: #6d076c;
+
+        }
+
+        .codder-skills {
+            padding-left: 180px;
+            font-size: 40px;
+
+        }
+
+        .about-box-2 {
+            height: 100%;
+            width: 60%;
+         
+        }
+
+        .text-about-box-2 {
+            font-size: 18px;
+            padding-left: 30px;
+            padding-right: 40px;
+            padding-top: 30px;
+        }
+          .text-about-box-3 {
+            font-size: 23px;
+            padding-left: 30px;
+            padding-right: 40px;
+           
+        }
+        .about-contact {
+            color: black;
+        }
+         .about-skills {
+        
+            font-size: 40px;
+            text-align: center;
+
+        }
+        .card-container{
+            height: 240px;
+           display: flex;
+           flex-direction: row;
+         justify-content: space-evenly;
+         
+        }
+        .skills-card{
+            height: 200px;
+            width:  240px;
+            background-color: yellowgreen;
+            margin-top: 17px;
+            transition: 0.2s  transform 0.2s;
+        }
+       
+
+
+
+        .skills-card:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px rgb(170, 13, 13);
+        }
+
+
+        /* ----section-two--end --- */
+
+        .section-three {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(96, 93, 63);
+        }
+
+
+
+        /*  */
+        /*  */
+        @media (max-width:430px) {
+
+            .header {
+                height: 10%;
+                flex-direction: column;
+                margin-top: 4px;
+            }
+
+            .header-box-name {
+                width: 100%;
+                height: 50%;
+            }
+
+            .header-name {
+                font-size: 29px;
+                margin-top: 10px;
+
+            }
+
+            .header-button {
+                width: 100%;
+                height: 50%;
+                padding-top: 1.9%;
+                padding-left: 20px;
+                font-size: 15px;
+                gap: 30px;
+            }
+
+
+
+            .class-1 {
+                height: 90%;
+                width: 100%;
+
+                margin-top: 80px;
+                display: flex;
+                flex-direction: column-reverse;
+
+
+            }
+
+            .section-1-box-1 {
+                height: 50%;
+                width: 100%;
+
+            }
+
+            .home-skills {
+                font-size: 30px;
+                padding-top: 0.1px;
+                padding-left: 90px;
+
+            }
+
+            .developer-home-text {
+                font-size: 15px;
+                padding-left: 8px;
+
+            }
+
+            .experiences-text {
+                font-size: 13px;
+                padding-left: 48PX;
+
+            }
+
+            .home-number-1 {
+                font-size: 35px;
+                padding-left: 45px;
+                color: rgb(4, 4, 130);
+            }
+
+            .home-number-2 {
+                font-size: 35px;
+                padding-left: 36px;
+                color: rgb(4, 4, 130);
+            }
+
+            .home-number-3 {
+                font-size: 35px;
+                padding-left: 20px;
+                color: rgb(4, 4, 130);
+            }
+
+            .home-page-button-1 {
+                height: 28px;
+                width: 115px;
+                font-size: 13px;
+                margin-left: 65px;
+                border: none;
+                background-color: rgb(0, 81, 138);
+                border-radius: 5px;
+
+            }
+
+            .home-page-button-2 {
+
+                height: 28px;
+                width: 115px;
+                font-size: 13px;
+                margin-left: 20px;
+                border: none;
+                background-color: rgb(0, 81, 138);
+                border-radius: 5px;
+
+            }
+
+
+            .section-1-box-2 {
+                height: 50%;
+                width: 100%;
+
+                display: flex;
+            }
+
+            .img-box-section-1 {
+                height: 300px;
+                width: 300px;
+                background-color: #ffffff;
+                border-radius: 200px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-left: 50px;
+            }
+
+            .developer-img {
+                height: 200px;
+                width: 200px;
+            }
+
+            /*  */
+            /*  */
+            .section-two {
+                height: auto;
+                width: 100%;
+
+
+            }
+
+            .about-headline {
+
+                background-color: aliceblue;
+                font-size: 27px;
+                padding-left: 158px;
+            }
+
+            .about-text {
+                font-size: 12px;
+                padding-left: 5px;
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <!-- main-container-----------start -->
+    <div class="main-container">
+        <!--------section-one--start --------->
+        <div class="section-one" id="Home">
+            <!-- header---start-- -->
+            <div class="header">
+                <div class="header-box-name">
+                    <span class="header-name"> Vicky Dharpure </span>
+                </div>
+
+                <!-- header--button----- -->
+                <div class="header-button">
+                    <span> <a href="#Home ">Home </span> </a>
+                    <span> <a href="#about">About</span> </a>
+                    <span> <a href="#project">Project</span> </a>
+                    <span> <a href="#Contact">Contact</span> </a>
+
+                </div>
+            </div>
+            <div class="class-1">
+
+                <div class="section-1-box-1">
+                    <h1 class="home-skills"> Creative Developer</h1>
+                    <p class="developer-home-text"> I create digital experiences that inspire and engage. With a passion
+                        for clean design and innovative solutions, I transform ideas into beautiful, functional
+                        realities.
+                    </p>
+
+                    <div class="experiences-text">
+                        <div class="home-ex-box">
+                            <b class="home-number-1">2</b> <br>
+                            <span> Projects Completed </span>
+                        </div>
+                        <div class="home-ex-box">
+                            <b class="home-number-2">5</b><br>
+                            <span> Month Experience</span>
+                        </div>
+                        <div class="home-ex-box">
+                            <b class="home-number-3">1</b> <br>
+                            <span> Happy Clients</span>
+                        </div>
+
+                    </div>
+                    <span> <button class="home-page-button-1"> <a href="#project">View my work</a> </button> <button
+                            class="home-page-button-2"><a href="tel:8975657856">Get in Touch</a></button> </span>
+                </div>
+
+                <div class="section-1-box-2">
+                    <div class="img-box-section-1">
+                        <img class="developer-img"
+                            src="https://i.pinimg.com/736x/93/a3/1f/93a31fb17ef5db093011314de0cefea2.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--------section-one--end--------->
+
+        <!--------section-two--start --------->
+        <div class="about-headline"> About me</div>
+      
+        <!-- about-section -->
+        <div class="section-two" id="about">
+
+            <!-- skills-card-----about-section -->
+            <div class="about-box-1">
+                <div class="img-about-section">
+                    <img class="developer-img-2"
+                        src="https://i.pinimg.com/736x/93/a3/1f/93a31fb17ef5db093011314de0cefea2.jpg" alt="">
+                </div>
+                <br>
+                <b class="codder-name">Vicky S Dharpure</b>
+
+                <p class="codder-skills">Full Stack Developer </p>
+
+
+            </div>
+            <div class="about-box-2">
+                <p class="text-about-box-2">I am a Full-Stack Developer focused on building dynamic and user-friendly
+                    web <br> applications. I work
+                    with both front-end and back-end technologies to develop <br> seamless digital experiences. My goal is to
+                    deliver efficient, responsive, and high-  <br> performing solutions.
+                </p>
+                <p class="text-about-box-3">phone <a class="about-contact" href="tel:9875657856">8975657856</a>
+                </p>
+                <p class="text-about-box-3">Email <a class="about-contact"
+                        href="mailto:dharpurevicky9@gmail.com">dharpurevicky9@gmail.com</a></p>
+                <p class="text-about-box-3">Language : Marathi, Hindi, English
+                </p>
+                 <p class="about-skills"> My Skills  
+                 </p>
+               <div class="card-container">
+                <div class="skills-card">
+                    <b></></b>
+                </div>
+                <div class="skills-card"></div>
+                <!-- <div class="skills-card"></div> -->
+               </div>
+
+
+
+            </div>
+
+        </div>
+        <!--------section-two--end --------->
+
+        <!--------section-three--start --------->
+        <div class="section-three" id="project">
+
+        </div>
+        <!--------section-three--end --------->
+
+
+
+    </div>
+    <!-- main-container-----------end -->
+</body>
+
+</html>

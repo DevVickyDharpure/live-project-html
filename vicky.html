@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .main-container {
+            height: 100vh;
+            width: 100vw;
+        }
+
+        /* ------  section-one-start ------- */
+        .section-one {
+            height: 100%;
+            width: 100%;
+            background-color: wheat;
+            display: flex;
+        }
+
+        /* header */
+        .header {
+            height: 8%;
+            width: 100%;
+            background-color: violet;
+            display: flex;
+            position: fixed;
+            margin-top: -7px;
+        }
+
+        .header-box-name {
+            width: 40%;
+            height: 100%;
+        }
+
+        .header-name {
+            font-size: 45px;
+            margin-left: 55px;
+            text-shadow: 2px 2px rgb(210, 208, 208);
+        }
+
+        .header-button {
+            width: 60%;
+            padding-top: 1.5%;
+            padding-left: 340px;
+            font-size: 20px;
+            display: flex;
+            gap: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: black;
+        }
+        /*  */
+        /*  */
+        .class-1 {
+            height: 100%;
+            width: 100%;
+            background-color: yellowgreen;
+    
+            display: flex;
+
+        }
+
+        .section1-box-1 {
+            height: 100%;
+            width: 100%;
+            background-color: rgb(50, 60, 31);
+            text-align: center;
+            
+        }
+
+
+       
+        /* -------  section--one-end  -----*/
+
+        /* ---section-two--start -------- */
+
+        .section-two {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(96, 84, 63);
+
+        }
+
+        .about-headline {
+            width: 100%;
+            height: 15%;
+            background-color: aliceblue;
+        }
+
+        .skills-big-box {
+            height: 100%;
+            height: 83%;
+            background-color: rgb(130, 130, 7);
+            display: flex;
+            justify-content: space-evenly;
+            padding-top: 120px;
+
+        }
+
+        .skills-card {
+            height: 300px;
+            width: 300px;
+            background-color: aliceblue;
+
+        }
+
+        .skills-card :hover {
+            height: 330px;
+            width: 300px;
+            background-color:rgb(108, 135, 57);
+            border-radius: 2px ;
+            border-color: tomato;
+        }
+
+        /* ----section-two--end --- */
+
+        .section-three {
+            height: 80%;
+            width: 100%;
+            background-color: rgb(96, 93, 63);
+        }
+
+
+
+       /*  */
+       /*  */
+       @media (max-width:430px){
+
+          .header {
+            height: 10%;
+            flex-direction: column;  
+            margin-top: 4px;  
+        }
+        .header-box-name {
+            width: 100%;
+            height: 50%;
+        }
+       
+         .header-name {
+            font-size: 29px;
+            margin-top: 10px;
+           
+        }
+
+        .header-button {
+            width: 100%;
+            height: 50%;
+            padding-top: 1.9%;
+            padding-left: 20px;
+            font-size: 15px;
+            gap: 30px;
+        }
+         .class-1 {
+            height: 90%;
+            width: 100%;
+            background-color: yellowgreen;
+            margin-top: 90px;
+            display: flex;
+            flex-direction: column;
+
+        }
+          }
+    </style>
+</head>
+
+<body>
+    <!-- main-container-----------start -->
+    <div class="main-container">
+        <!--------section-one--start --------->
+        <div class="section-one" id="Home">
+            <!-- header---start-- -->
+            <div class="header">
+                <div class="header-box-name">
+                    <span class="header-name"> Vicky Dharpure </span>
+                </div>
+
+                <!-- header--button----- -->
+                <div class="header-button">
+                    <span> <a href="#Home ">Home </span> </a>
+                    <span> <a href="#about">About</span> </a>
+                    <span> <a href="#service">Project</span> </a>
+                    <span> <a href="#Contact">Contact</span> </a>
+                </div>
+
+
+            </div>
+            <div class="class-1">
+
+                <span class="section1-box-1">
+                    <h1>Vicky Dharpure</h1>
+                    <h2>Full Stack</h2>
+
+                </span>
+
+                
+            </div>
+
+        </div>
+        <!--------section-one--end--------->
+
+        <!--------section-two--start --------->
+
+        <!-- about-section -->
+        <div class="section-two">
+            <div class="about-headline"></div>
+            <span>hi</span>
+            <!-- skills-card-----about-section -->
+            <div class="skills-big-box">
+                <div class="skills-card"></div>
+                <div class="skills-card"></div>
+                <div class="skills-card"></div>
+                <div class="skills-card"></div>
+            </div>
+        </div>
+        <!--------section-two--end --------->
+
+        <!--------section-three--start --------->
+        <div class="section-three">
+
+        </div>
+        <!--------section-three--end --------->
+
+
+
+    </div>
+    <!-- main-container-----------end -->
+</body>
+
+</html>
